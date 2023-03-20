@@ -1041,7 +1041,6 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <circ-anchor facing="east" height="6" width="6" x="137" y="67"/>
     </appear>
     <wire from="(20,150)" to="(720,150)"/>
-    <wire from="(20,210)" to="(720,210)"/>
     <wire from="(70,70)" to="(70,80)"/>
     <wire from="(360,60)" to="(360,70)"/>
     <wire from="(140,80)" to="(140,100)"/>
@@ -1085,7 +1084,6 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
     <wire from="(190,460)" to="(240,460)"/>
     <wire from="(190,560)" to="(240,560)"/>
     <wire from="(190,360)" to="(240,360)"/>
-    <wire from="(560,430)" to="(560,450)"/>
     <wire from="(140,380)" to="(240,380)"/>
     <wire from="(140,280)" to="(240,280)"/>
     <wire from="(140,430)" to="(240,430)"/>
@@ -1094,10 +1092,40 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
     <wire from="(150,580)" to="(240,580)"/>
     <wire from="(150,530)" to="(240,530)"/>
     <wire from="(150,630)" to="(240,630)"/>
-    <wire from="(530,450)" to="(560,450)"/>
     <wire from="(560,360)" to="(560,420)"/>
     <wire from="(560,420)" to="(570,420)"/>
-    <wire from="(560,430)" to="(570,430)"/>
+    <wire from="(280,270)" to="(310,270)"/>
+    <wire from="(310,270)" to="(310,300)"/>
+    <wire from="(280,370)" to="(310,370)"/>
+    <wire from="(310,370)" to="(310,400)"/>
+    <wire from="(20,210)" to="(720,210)"/>
+    <wire from="(310,300)" to="(320,300)"/>
+    <wire from="(310,400)" to="(320,400)"/>
+    <wire from="(280,420)" to="(320,420)"/>
+    <wire from="(280,320)" to="(320,320)"/>
+    <wire from="(360,310)" to="(390,310)"/>
+    <wire from="(390,390)" to="(400,390)"/>
+    <wire from="(390,310)" to="(390,390)"/>
+    <wire from="(360,410)" to="(400,410)"/>
+    <wire from="(280,470)" to="(320,470)"/>
+    <wire from="(280,570)" to="(320,570)"/>
+    <wire from="(280,520)" to="(310,520)"/>
+    <wire from="(310,490)" to="(310,520)"/>
+    <wire from="(310,490)" to="(320,490)"/>
+    <wire from="(280,620)" to="(310,620)"/>
+    <wire from="(310,590)" to="(310,620)"/>
+    <wire from="(310,590)" to="(320,590)"/>
+    <wire from="(360,480)" to="(400,480)"/>
+    <wire from="(390,500)" to="(390,580)"/>
+    <wire from="(360,580)" to="(390,580)"/>
+    <wire from="(390,500)" to="(400,500)"/>
+    <wire from="(440,400)" to="(470,400)"/>
+    <wire from="(470,400)" to="(470,420)"/>
+    <wire from="(470,420)" to="(480,420)"/>
+    <wire from="(520,430)" to="(570,430)"/>
+    <wire from="(440,490)" to="(470,490)"/>
+    <wire from="(470,440)" to="(470,490)"/>
+    <wire from="(470,440)" to="(480,440)"/>
     <comp lib="6" loc="(672,128)" name="Text">
       <a name="text" val="输出引脚区"/>
       <a name="font" val="SansSerif bold 12"/>
@@ -1118,6 +1146,19 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="label" val="D1"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
+    <comp lib="1" loc="(280,620)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
     <comp lib="0" loc="(140,100)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="16"/>
@@ -1129,6 +1170,19 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="width" val="1"/>
       <a name="label" val="D4"/>
       <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(280,570)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
     <comp lib="0" loc="(420,100)" name="Tunnel">
       <a name="facing" val="north"/>
@@ -1250,6 +1304,19 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
+    <comp lib="1" loc="(520,430)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
     <comp lib="0" loc="(440,80)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="1"/>
@@ -1300,11 +1367,37 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="label" val="D8"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
+    <comp lib="1" loc="(280,420)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
     <comp lib="0" loc="(580,100)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="17"/>
       <a name="label" val="校验码"/>
       <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(360,480)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
     <comp lib="0" loc="(190,460)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1340,6 +1433,19 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="bit14" val="none"/>
       <a name="bit15" val="none"/>
     </comp>
+    <comp lib="1" loc="(360,580)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
     <comp lib="0" loc="(260,80)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="1"/>
@@ -1362,6 +1468,19 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="bit14" val="none"/>
       <a name="bit15" val="none"/>
     </comp>
+    <comp lib="1" loc="(280,320)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
     <comp lib="0" loc="(280,60)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="width" val="1"/>
@@ -1379,6 +1498,19 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="width" val="1"/>
       <a name="label" val="D12"/>
       <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="1" loc="(280,370)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
     <comp lib="0" loc="(70,70)" name="Pin">
       <a name="facing" val="south"/>
@@ -1590,12 +1722,38 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
     </comp>
+    <comp lib="1" loc="(440,490)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
     <comp lib="6" loc="(516,189)" name="Text">
       <a name="text" val="请在下方利用上方输入输出引脚的隧道信号构建电路，ctrl+d复制选择部件"/>
       <a name="font" val="Dialog plain 12"/>
       <a name="color" val="#000000"/>
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
+    </comp>
+    <comp lib="1" loc="(280,270)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
     <comp lib="0" loc="(150,580)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1624,6 +1782,19 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="bit13" val="none"/>
       <a name="bit14" val="none"/>
       <a name="bit15" val="none"/>
+    </comp>
+    <comp lib="1" loc="(280,520)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
     <comp lib="0" loc="(440,60)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -1701,6 +1872,32 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="label" val="校验码"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
+    <comp lib="1" loc="(280,470)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(360,410)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
     <comp lib="0" loc="(320,60)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="width" val="1"/>
@@ -1728,6 +1925,32 @@ ced2 b5c4 d0c4 cdb7 b5b4 d1fa a1a3
       <a name="bit13" val="none"/>
       <a name="bit14" val="none"/>
       <a name="bit15" val="0"/>
+    </comp>
+    <comp lib="1" loc="(360,310)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(440,400)" name="XOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
     <comp lib="0" loc="(200,60)" name="Tunnel">
       <a name="facing" val="south"/>
